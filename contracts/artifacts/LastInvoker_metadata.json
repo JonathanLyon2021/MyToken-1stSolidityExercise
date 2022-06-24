@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getLastInvoker",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PrevInvoker.sol": "LastInvoker"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PrevInvoker.sol": {
+			"keccak256": "0xcdff23c6f1bdd246632c538917ce6c5b5b8c0a7d391fcf74759c5a7cc80a6b07",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://76fefeadea912eaeda567a8b8424d1f1b503a1f638bf649ddd4daf7d2402bb03",
+				"dweb:/ipfs/QmSLU3jn5DmvDM3KhUf36y1yDaMSATUwBHQot1i3bYir3k"
+			]
+		}
+	},
+	"version": 1
+}

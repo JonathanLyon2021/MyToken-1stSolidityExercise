@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "delta",
+						"type": "uint256"
+					}
+				],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IncrementorContract.sol": "Incrementor"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IncrementorContract.sol": {
+			"keccak256": "0xf772e33d91fd26a2be28fcf662489dcd94d83ad90f10b975a8e51638218b221c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5fe20ad2b34bd78c74b4d60869899dfadc3dfe7cca2e87dcf758125c4c3ac1c1",
+				"dweb:/ipfs/QmWgNPYWhQ1hJnSjcxEWBiCWR7JHK3UoC4vGmpvMVHs1ew"
+			]
+		}
+	},
+	"version": 1
+}
